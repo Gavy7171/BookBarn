@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Barn</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #ff0000; /* Red background */
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            background-color: #000;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .header-logo {
+            width: 100px;
+            height: 100px;
+        }
+        .featured-books, .special-offers {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .card {
+            background-color: #fff;
+            color: #000;
+            border: none;
+        }
+        .card img {
+            border-radius: 5px;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .special-offers .btn {
+            background-color: #000;
+            color: #fff;
+            border: none;
+        }
+        .footer-icons i {
+            font-size: 28px;
+            margin: 0 15px;
+            color: #000;
+            transition: transform 0.3s;
+        }
+        .footer-icons i:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/book-branding.jpg" alt="Book Barn" class="header-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="text-center mt-5">
+        <h2>Welcome to BookBarn</h2>
+        <p>Your gateway to a world of stories and knowledge.</p>
+        <p>Our mission is to provide a diverse range of books at affordable prices, with a focus on fostering a love for reading.</p>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center">Featured Books</h2>
+        <div class="row featured-books mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://childrensbookshop.co.nz/wp-content/uploads/2021/04/HP-Chamber-of-secrets.jpg" class="card-img-top" alt="Harry Potter">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter</h5>
+                        <p class="card-text">$14.99</p>
+                        <p>A gripping tale of suspense and intrigue.</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://d3fa68hw0m2vcc.cloudfront.net/4ec/258485878.jpeg" class="card-img-top" alt="Dune">
+                    <div class="card-body">
+                        <h5 class="card-title">Dune</h5>
+                        <p class="card-text">$19.99</p>
+                        <p>Explore new worlds and fantastic adventures.</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" class="card-img-top" alt="Game of Thrones">
+                    <div class="card-body">
+                        <h5 class="card-title">Game Of Thrones</h5>
+                        <p class="card-text">$29.99</p>
+                        <p>A saga of ice and fire.</p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center">Special Offers</h2>
+        <div class="row special-offers mt-4">
+            <div class="col-md-4">
+                <div class="p-4 bg-light text-dark rounded text-center">
+                    <h5>Summer Reading Sale</h5>
+                    <p>Up to 50% off selected books!</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-light text-dark rounded text-center">
+                    <h5>Buy 1 Get One Free</h5>
+                    <p>On All Classics!</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-light text-dark rounded text-center">
+                    <h5>Free Shipping</h5>
+                    <p>On orders over $25</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Book Barn. All Rights Reserved.</p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" width="30"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook" width="30"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Twitter" width="30"></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
